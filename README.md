@@ -1,2 +1,32 @@
-# taa-arts-organisation-fe
-Taa Arts Organisation frontend application.
+# Taa Arts Frontend
+
+Taa Arts a community based organization frontend application.
+
+## Installation
+### Prerequisites
+To run this project, you will need a Nodejs runtime environment running Node v10.16.0 and NPM v6.9.0
+
+Run ```git clone https://github.com/builtIT/taa-arts-organisation-fe.git``` to clone this repository.
+
+Change directory: ```cd taa-arts-organisation-fe```
+ 
+Use the package manager [npm](https://pip.pypa.io/en/stable/) to install dependencies.
+
+```bash
+npm install
+```
+
+## Usage
+To start the app run
+
+```bash
+npm start
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Authors and acknowledgment
+- [_justmesam](https://github.com/justmesam)
