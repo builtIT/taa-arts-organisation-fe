@@ -17,11 +17,31 @@ npm install
 ```
 
 ## Usage
+
+### Linting
+To lint your code run
+
+```bash
+npm run lint
+```
+To fix linting errors and warnings run
+
+```bash
+npm run lint:fix
+```
+### Running App
+First bundle your source code by running
+
+```bash
+npm run build
+```
+
 To start the app run
 
 ```bash
 npm start
 ```
+Visit ```http://localhost:3000/``` on your browser.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
