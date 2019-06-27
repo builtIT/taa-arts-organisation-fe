@@ -2,7 +2,6 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
-const SRC_DIR = `${__dirname}/src`;
 const OUTPUT_DIR = `${__dirname}/public`;
 
 
@@ -63,6 +62,10 @@ module.exports = {
   },
   resolve: {
     extensions: ['*', '.js', '.jsx'],
+    alias: {
+      styles: path.resolve(__dirname, 'src/styles/'),
+      libs: path.resolve(__dirname, 'src/libs/'),
+    },
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
