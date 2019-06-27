@@ -2,7 +2,9 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
-const SRC_DIR = `${__dirname }/src`;
+const SRC_DIR = `${__dirname}/src`;
+const OUTPUT_DIR = `${__dirname}/public`;
+
 
 module.exports = {
   entry: './src/index.js',
@@ -65,7 +67,7 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: `${SRC_DIR }/index.html`,
+      template: `${OUTPUT_DIR}/index.html`,
       filename: './index.html',
     }),
   ],
